@@ -71,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ngx-scanner-qrcode:build:production"
+              "buildTarget": "ngx-scanner-qrcode:build:production"
             },
             "development": {
-              "browserTarget": "ngx-scanner-qrcode:build:development"
+              "buildTarget": "ngx-scanner-qrcode:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-scanner-qrcode:build"
+            "buildTarget": "ngx-scanner-qrcode:build"
           }
         },
         "test": {
